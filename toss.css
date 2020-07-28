@@ -52,20 +52,23 @@
     box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09) ;
 }
 
+.logoname {
+    display: flex;
+    align-items: center;
+}
+
 .banklogo {
-    height: 60%;
-    width: 10%;
+    height: 35px;
+    width: 35px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .bankname {
-    width: 50%;
     color : gray;
 }
 
 .bankmoney { 
-    width: 40%;
     margin-right: 10px;
 }
 
